@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_mymail"
+            android:icon="@drawable/ic_mail_icon"
+            android:title="My Mail" />
+    </group>
+    <group android:id="@+id/group_2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_following"
+            android:icon="@drawable/ic_star_icon"
+            android:title="Following" />
+    </group>
+    <group android:id="@+id/group_3" android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_myprofile"
+            android:icon="@drawable/ic_user_icon"
+            android:title="My Profile" />
+    </group>
+    <group android:id="@+id/group_4" android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_mybusinesses"
+            android:icon="@drawable/ic_business_icon"
+            android:title="My Businesses" />
+    </group>
+
+
+</menu>

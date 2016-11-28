@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="HOME"/>
+    </group>
+    <group android:id="@+id/group2" android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_directory"
+            android:icon="@drawable/ic_menu_directory"
+            android:title="DIRECTORY" />
+    </group>
+    <group android:id="@+id/group3" android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_food"
+            android:icon="@drawable/ic_menu_food_drink"
+            android:title="FOOD DRINK"/>
+    </group>
+    <group android:id="@+id/group5" android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_job"
+            android:icon="@drawable/ic_menu_job_search"
+            android:title="JOB SEARCH" />
+    </group>
+    <group android:id="@+id/group6" android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_offers"
+            android:icon="@drawable/ic_menu_offers"
+            android:title="OFFERS" />
+    </group>
+    <group android:id="@+id/group7" android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_other"
+            android:icon="@drawable/ic_menu_other_services"
+            android:title="OTHER SERVICES"/>
+
+        <item
+            android:id="@+id/menu_other_new"
+            android:title="New Feed"
+            android:visible="false"/>
+        <item
+            android:id="@+id/menu_other_help"
+            android:title="Help"
+            android:visible="false"/>
+    </group>
+    <group android:id="@+id/group4" android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_counrty"
+            android:icon="@drawable/ic_menu_country"
+            android:title="COUNTRY" />
+        <item
+            android:id="@+id/menu_counrty_italy"
+            android:title="Italy"
+            android:visible="false"/>
+        <item
+            android:id="@+id/menu_counrty_unitedkingdom"
+            android:title="United Kingdom"
+            android:visible="false"/>
+        <item
+            android:id="@+id/menu_counrty_unitedstates"
+            android:title="United States"
+            android:visible="false"/>
+    </group>
+    <group android:id="@+id/group10" android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_settings"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="SETTINGS"/>
+    </group>
+
+
+
+</menu>
